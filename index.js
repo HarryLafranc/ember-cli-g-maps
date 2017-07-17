@@ -89,7 +89,7 @@ module.exports = {
       if(googleMapConfig.lazyLoad) {
         content = '<meta name="ember-cli-g-maps-url" content="'+ googleMapSrc +'">';
       } else {
-        content = '<script src="'+ googleMapSrc +'"></script>';
+        content = '<script async src="'+ googleMapSrc +'"></script>';
       }
     }
 
