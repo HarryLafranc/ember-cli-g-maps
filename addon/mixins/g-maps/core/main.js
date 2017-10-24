@@ -20,6 +20,7 @@ export default Ember.Mixin.create(Ember.Evented, {
   showZoomControl: true,
   showScaleControl: true,
   isMapLoaded: false,
+  gestureHandling: "cooperative",
   classNames: ['ember-cli-g-map'],
   gMap: Ember.inject.service(),
 
@@ -59,7 +60,8 @@ export default Ember.Mixin.create(Ember.Evented, {
       'scaleControl',
       'showScaleControl',
       'disableDefaultUI',
-      'clickableIcons'
+      'clickableIcons',
+      'gestureHandling'
     );
 
     // Map symantic names to Google Map Options
