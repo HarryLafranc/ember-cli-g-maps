@@ -7,6 +7,7 @@ import twoWayZoom from 'ember-cli-g-maps/mixins/g-maps/core/two-way-zoom';
 import twoWayDraggable from 'ember-cli-g-maps/mixins/g-maps/core/two-way-draggable';
 import twoWayDisableDoubleClickZoom from 'ember-cli-g-maps/mixins/g-maps/core/two-way-disable-double-click-zoom';
 import twoWayScrollWheel from 'ember-cli-g-maps/mixins/g-maps/core/two-way-scroll-wheel';
+import twoWayGestureHandling from 'ember-cli-g-maps/mixins/g-maps/core/two-way-gesture-handling';
 import twoWayZoomControl from 'ember-cli-g-maps/mixins/g-maps/core/two-way-zoom-control';
 import twoWayScaleControl from 'ember-cli-g-maps/mixins/g-maps/core/two-way-scale-control';
 import twoWayMapType from 'ember-cli-g-maps/mixins/g-maps/core/two-way-map-type';
@@ -39,6 +40,7 @@ export default Ember.Component.extend(
   twoWayDraggable,
   twoWayDisableDoubleClickZoom,
   twoWayScrollWheel,
+  twoWayGestureHandling,
   twoWayZoomControl,
   twoWayScaleControl,
   twoWayMapType,
